@@ -3,17 +3,15 @@ dist/
 .env
 .env.*
 !.env.example
-venv/
-.venv/
+*.db
+*.sqlite
+*.sqlite3
+*.mmdb
+*.tar.gz
 __pycache__/
-*.pyc
-backend/.env
-backend/venv/
-backend/.venv/
+*.py[cod]
+.venv/
+venv/
 
-# Local databases and downloaded GeoIP data
-backend/matsya.db
-backend/data/*.mmdb
-backend/data/*.tar.gz
-backend/data/GeoLite2-City_20261023/
+backend/data/
 
