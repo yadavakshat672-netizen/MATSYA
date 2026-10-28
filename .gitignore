@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+backend/.env
+backend/venv/
+backend/.venv/
+
+# Local databases and downloaded GeoIP data
+backend/matsya.db
+backend/data/*.mmdb
+backend/data/*.tar.gz
+backend/data/GeoLite2-City_20261023/
+
